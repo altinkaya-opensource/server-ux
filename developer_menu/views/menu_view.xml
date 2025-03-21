@@ -4,7 +4,7 @@
 <menuitem
         id="conf_tech"
         parent="base.menu_administration"
-        name="🧰 Dev"
+        name="Dev"
         groups="base.group_erp_manager"
         sequence="0"
     >
@@ -17,19 +17,19 @@
         />
     <menuitem
             id="rec_rule"
-            name="📑 Record Rules"
+            name="Record Rules"
             action="base.action_rule"
             sequence="20"
         />
     <menuitem id="view" name="Views" action="base.action_ui_view" sequence="30" />
-    <menuitem id="menu" name="📃 Menus" action="base.grant_menu_access" sequence="40" />
+    <menuitem id="menu" name="Menus" action="base.grant_menu_access" sequence="40" />
     <menuitem
             id="model_data"
             name="Model Data"
             action="base.action_model_data"
             sequence="50"
         />
-    <menuitem id="cron" name="📅 Crons" action="base.ir_cron_act" sequence="70" />
+    <menuitem id="cron" name="Crons" action="base.ir_cron_act" sequence="70" />
     <menuitem
             id="window"
             name="Actions Window"
@@ -38,13 +38,13 @@
         />
     <menuitem
             id="server"
-            name="⚙ Actions Server"
+            name="Actions Server"
             action="base.action_server_action"
             sequence="90"
         />
     <menuitem
             id="report"
-            name="📄 Reports"
+            name="Reports"
             action="base.ir_action_report"
             sequence="100"
         />
@@ -56,7 +56,7 @@
         />
     <menuitem
             id="seq"
-            name="🔢 Sequences"
+            name="Sequences"
             action="base.ir_sequence_form"
             sequence="115"
         />
@@ -68,7 +68,7 @@
         />
     <menuitem
             id="mail_tmpl"
-            name="📧 Mail Templates"
+            name="Mail Templates"
             action="mail.action_email_template_tree_all"
             sequence="140"
         />
