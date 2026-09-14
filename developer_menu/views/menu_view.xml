@@ -54,12 +54,7 @@
             action="base.ir_config_list_action"
             sequence="110"
         />
-    <menuitem
-            id="seq"
-            name="Sequences"
-            action="base.ir_sequence_form"
-            sequence="115"
-        />
+    <menuitem id="seq" name="Sequences" action="base.ir_sequence_form" sequence="115" />
     <menuitem
             id="property"
             name="Properties"
